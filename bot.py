@@ -4,8 +4,8 @@ import schedule
 import time
 import telegram
 
-TOKEN = 8632230189:AAFF2bXQxoGV3bnj9hr1fzFbpvOYisVEE5w
-CHAT_ID = 7463999147
+TOKEN = "8632230189:AAFF2bXQxoGV3bnj9hr1fzFbpvOYisVEE5w"
+CHAT_ID = "7463999147"
 
 bot = telegram.Bot(token=TOKEN)
 
