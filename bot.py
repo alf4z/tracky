@@ -20,7 +20,7 @@ def send_price():
 
     price = soup.find("span", {"class": "a-price-whole"}).text
 
-    message = f""""
+    message = f"""
     🍥Hey Alfaz,
     
 📦 Product Price Update
@@ -28,7 +28,7 @@ def send_price():
 Current Price: ₹{price}
 
 Checked Automatically Today
-""""
+"""
 
     bot.send_message(chat_id=CHAT_ID, text=message)
 
