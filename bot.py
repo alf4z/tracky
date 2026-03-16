@@ -34,7 +34,7 @@ Checked Automatically Today
 
 
 # run once per day
-schedule.every().day.at("09:00").do(send_price)
+schedule.every(1).minutes.do(send_price)
 
 while True:
     schedule.run_pending()
